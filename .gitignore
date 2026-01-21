@@ -1,0 +1,6 @@
+schelling_figs
+schelling_results*
+.venv
+*__pycache__*
+*.DS_store*
+results_si_abm*
