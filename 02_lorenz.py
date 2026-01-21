@@ -27,4 +27,12 @@ s = odeint(lorenzsystem, s0, t)
 plt.plot(s[:,0], s[:,1], color="red", alpha=0.5)
 # %%
 
+# for i, c in zip(np.linspace(0.5,1.5,21), plt.get_cmap("tab20").colors):
+#     s0 = np.array([i,0.1,0.1])
+#     s = odeint(lorenzsystem, s0, t)
+
+#     plt.plot(s[:,0], s[:,1], color=c, alpha=0.4, lw=2)
+# plt.yticks([])
+# plt.xticks([])
+# plt.gca().axis("off")
 #
